@@ -1,0 +1,94 @@
+###### Paths
+base_path: "/imppc/labs/eclab/ijarne/0_Recerca/1_NF2_exon11/1_RNA_Seq/2_Gemma_samples_batch2_timepoints/0_RNA_Seq_pipeline"
+raw_data_path: ""
+
+#### Programs paths 
+bbduk_sh: "/imppc/labs/eclab/ijarne/miniconda3/opt/bbmap-39.18-0/bbduk.sh"
+
+#### Singularity
+fCounts: "/imppc/labs/eclab/Resources/Singularity_sif/Images_Recerca/featurecounts_latest.sif"
+
+###### Work files paths
+adapters: "/imppc/labs/eclab/ijarne/miniconda3/opt/bbmap-39.18-0/resources/adapters.fa"
+genome_index: "/imppc/labs/eclab/Resources/Genomes/Hsapiens/Homo_sapiens.GRCh38.dna.primary_assembly/indexed_genome_STAR"
+gft_file: "/imppc/labs/eclab/Resources/Genomes/Hsapiens/Homo_sapiens.GRCh38.dna.primary_assembly/Homo_sapiens.GRCh38.113.gtf.gz"
+
+##### Samples
+samples:
+  - 106UDI
+  - 107UDI
+  - 108UDI
+  - 119UDI
+  - 120UDI
+  - 130UDI
+  - 131UDI
+  - 142UDI
+  - 144UDI
+  - 154UDI
+  - 155UDI
+  - 156UDI
+  - 166UDI
+  - 168UDI
+  - 178UDI
+  - 179UDI
+  - 180UDI
+  - 190UDI
+  - 191UDI
+  - 192UDI
+  - 193UDI
+  - 194UDI
+  - 205UDI
+  - 206UDI
+  - 217UDI
+  - 218UDI
+  - 229UDI
+  - 241UDI
+  - 253UDI
+  - 265UDI
+  - 277UDI
+  - 294UDI
+  - 296UDI
+  - 297UDI
+  - 298UDI
+  - 299UDI
+  - 306UDI
+  - 307UDI
+  - 308UDI
+  - 309UDI
+  - 310UDI
+  - 311UDI
+  - 318UDI
+  - 319UDI
+  - 320UDI
+  - 321UDI
+  - 322UDI
+  - 323UDI
+  - 330UDI
+  - 331UDI
+  - 332UDI
+  - 333UDI
+  - 334UDI
+  - 335UDI
+  - 342UDI
+  - 343UDI
+  - 344UDI
+  - 345UDI
+  - 346UDI
+  - 347UDI
+  - 354UDI
+  - 355UDI
+  - 356UDI
+  - 357UDI
+  - 358UDI
+  - 359UDI
+  - 366UDI
+  - 367UDI
+  - 368UDI
+  - 369UDI
+  - 370UDI
+  - 371UDI
+  - 378UDI
+  - 379UDI
+  - 381UDI
+  - 382UDI
+  - 383UDI
